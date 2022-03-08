@@ -7,6 +7,7 @@
 		<link rel="shortcut icon" href="./rose.png">
 		<link rel="stylesheet" href="https://use.typekit.net/eqx3jwb.css">
 		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="stylesheet" href="./load.css">
 		<script>document.documentElement.className = "js";
 
 var supportsCssVars = function supportsCssVars() {
@@ -18,6 +19,12 @@ var supportsCssVars = function supportsCssVars() {
 supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
 	<body class="demo-1 loading">
+		 <!-- loading -->
+		 <div id="loader">
+			<div class="logo-book"></div>
+			<div id="shadow"></div>
+			<div id="box"></div>
+		</div>
 		
 		<main>
 			<div class="message">Please view this demo on a desktop to see the effect.</div>
@@ -76,6 +83,6 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
 			<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
 		</svg>
 		<script src="./script.js"></script>
-		
+		<script src="./load.js"></script>
 	</body>
 </html>
